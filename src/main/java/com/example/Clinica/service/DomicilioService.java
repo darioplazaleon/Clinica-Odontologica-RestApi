@@ -40,14 +40,16 @@ public class DomicilioService implements IDomicilioService {
     }
 
     @Override
-    public void modificarDomicilio(DomicilioDTO domicilioDTO) {
+    public DomicilioDTO modificarDomicilio(DomicilioDTO domicilioDTO) {
         Domicilio domicilio = mapper.convertValue(domicilioDTO, Domicilio.class);
         domicilioRepository.save(domicilio);
+        return domicilioDTO;
     }
 
     @Override
-    public void eliminarDomicilio(Long id) {
+    public boolean eliminarDomicilio(Long id) {
         domicilioRepository.deleteById(id);
+        return false;
     }
 
     @Override

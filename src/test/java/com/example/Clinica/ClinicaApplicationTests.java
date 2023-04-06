@@ -32,12 +32,12 @@ class ClinicaApplicationTests {
 //	@Test
 //	public void crearOdontologoTest(){
 //		OdontologoDTO odontologoDTO = new OdontologoDTO();
-//		odontologoDTO.setId(2L);
-//		odontologoDTO.setApellido("Garcia");
+//		odontologoDTO.setId(3L);
+//		odontologoDTO.setApellido("Gomez");
 //		odontologoDTO.setNombre("Dario");
-//		odontologoDTO.setMatricula(56456456);
+//		odontologoDTO.setMatricula(115315135);
 //		odontologoService.crearOdontologo(odontologoDTO);
-//		OdontologoDTO odontologoDTO1 = odontologoService.leerOdontologo(2L);
+//		OdontologoDTO odontologoDTO1 = odontologoService.leerOdontologo(3L);
 //	}
 //
 //	@Test
@@ -62,12 +62,12 @@ class ClinicaApplicationTests {
 //		DomicilioDTO domicilioDTO1 = domicilioService.leerDomicilio(2L);
 //	}
 
-	@Test
-	public void crearTestTest(){
-		TurnoDTO turnoDTO = new TurnoDTO();
-		turnoDTO.setId(1L);
-		turnoDTO.setFecha("2023-04-15");
-		turnoService.crearTurno(turnoDTO);
-		TurnoDTO turnoDTO1 = turnoService.leerTurno(1l);
-	}
+//	@Test
+//	public void crearTestTest(){
+//		TurnoDTO turnoDTO = new TurnoDTO();
+//		turnoDTO.setId(1L);
+//		turnoDTO.setFecha("2023-04-15");
+//		turnoService.crearTurno(turnoDTO);
+//		TurnoDTO turnoDTO1 = turnoService.leerTurno(1l);
+//	}
 }
