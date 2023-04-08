@@ -13,5 +13,5 @@ public class PacienteDTO implements Serializable {
     private String nombre;
     private String apellido;
     private String dni;
-    private Date fechaIngreso;
+    private String fechaIngreso;
 }

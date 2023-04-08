@@ -1,15 +1,12 @@
 package com.example.Clinica.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 
-@Getter
-@Setter
+@Builder
+@Data
 @Entity
 @Table(name = "domicilios")
 @NoArgsConstructor
@@ -25,7 +22,7 @@ public class Domicilio implements Serializable {
     private String localidad;
     private String provincia;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 }

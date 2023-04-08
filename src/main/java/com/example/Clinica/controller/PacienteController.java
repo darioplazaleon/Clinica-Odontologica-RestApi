@@ -1,6 +1,7 @@
 package com.example.Clinica.controller;
 
 
+import com.example.Clinica.dto.OdontologoDTO;
 import com.example.Clinica.dto.PacienteDTO;
 import com.example.Clinica.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,12 +9,20 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
+import java.util.Set;
+
 @RestController
 @RequestMapping("/pacientes")
 public class PacienteController {
 
     @Autowired
     IPacienteService pacienteService;
+
+    @GetMapping("/listar")
+    public Collection<PacienteDTO> listarPacientes(){
+        return pacienteService.traerTodosPacientes();
+    }
 
     @PostMapping("/crear")
     public ResponseEntity<?> crearPaciente(@RequestBody PacienteDTO pacienteDTO){

@@ -2,6 +2,7 @@ package com.example.Clinica.service;
 
 import com.example.Clinica.dto.PacienteDTO;
 
+import java.util.Collection;
 import java.util.Set;
 
 public interface IPacienteService {
@@ -9,5 +10,5 @@ public interface IPacienteService {
     PacienteDTO leerPaciente(Long id);
     void modificarPaciente(PacienteDTO pacienteDTO);
     void eliminarPaciente(Long id);
-    Set<PacienteDTO> traerTodosPacientes();
+    Collection<PacienteDTO> traerTodosPacientes();
 }

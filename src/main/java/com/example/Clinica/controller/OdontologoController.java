@@ -7,12 +7,20 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
+import java.util.Set;
+
 
 @RestController
 @RequestMapping("/odontologos")
 public class OdontologoController {
     @Autowired
     IOdontologoService odontologoService;
+
+    @GetMapping("/listar")
+    public Collection<OdontologoDTO> listarOdontologos(){
+        return odontologoService.traerTodos();
+    }
 
     @PostMapping("/crear")
     public ResponseEntity<?> crearOdontologo(@RequestBody OdontologoDTO odontologoDTO){

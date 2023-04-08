@@ -3,17 +3,14 @@ package com.example.Clinica.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
-@Getter
-@Setter
+@Builder
+@Data
 @Entity
 @Table(name = "pacientes")
 @NoArgsConstructor
@@ -28,7 +25,7 @@ public class Paciente implements Serializable {
     private String apellido;
     private String email;
     private String dni;
-    private Date fechaIngreso;
+    private String fechaIngreso;
 
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
     @JsonIgnore

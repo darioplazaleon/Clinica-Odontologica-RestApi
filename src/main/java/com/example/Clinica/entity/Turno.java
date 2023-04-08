@@ -29,7 +29,7 @@ public class Turno implements Serializable {
     @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
+    @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
 }

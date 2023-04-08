@@ -14,6 +14,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+
 @SpringBootTest
 class ClinicaApplicationTests {
 
@@ -29,45 +32,52 @@ class ClinicaApplicationTests {
 	@Autowired
 	private ITurnoService turnoService;
 
-//	@Test
-//	public void crearOdontologoTest(){
-//		OdontologoDTO odontologoDTO = new OdontologoDTO();
-//		odontologoDTO.setId(3L);
-//		odontologoDTO.setApellido("Gomez");
-//		odontologoDTO.setNombre("Dario");
-//		odontologoDTO.setMatricula(115315135);
-//		odontologoService.crearOdontologo(odontologoDTO);
-//		OdontologoDTO odontologoDTO1 = odontologoService.leerOdontologo(3L);
-//	}
-//
-//	@Test
-//	public void crearPacienteTest(){
-//		PacienteDTO pacienteDTO = new PacienteDTO();
-//		pacienteDTO.setEmail("hola@hotmail.com");
-//		pacienteDTO.setId(1L);
-//		pacienteDTO.setApellido("Gomez");
-//		pacienteDTO.setNombre("Maria");
-//		pacienteService.crearPaciente(pacienteDTO);
-//		PacienteDTO pacienteDTO1 = pacienteService.leerPaciente(1L);
-//	}
+	@Test
+	public void crearOdontologoTest(){
+		OdontologoDTO odontologoDTO = new OdontologoDTO();
+		odontologoDTO.setId(3L);
+		odontologoDTO.setApellido("Gomez");
+		odontologoDTO.setNombre("Dario");
+		odontologoDTO.setMatricula(115315135);
+		odontologoService.crearOdontologo(odontologoDTO);
 
-//	@Test
-//	public void crearDomicilioTest(){
-//		DomicilioDTO domicilioDTO = new DomicilioDTO();
-//		domicilioDTO.setId(2L);
-//		domicilioDTO.setCalle("Emilio Castro");
-//		domicilioDTO.setLocalidad("Liniers");
-//		domicilioDTO.setProvincia("CABA");
-//		domicilioService.crearDomicilio(domicilioDTO);
-//		DomicilioDTO domicilioDTO1 = domicilioService.leerDomicilio(2L);
-//	}
+		assertEquals(odontologoDTO.getNombre(), "Dario");
+	}
 
-//	@Test
-//	public void crearTestTest(){
-//		TurnoDTO turnoDTO = new TurnoDTO();
-//		turnoDTO.setId(1L);
-//		turnoDTO.setFecha("2023-04-15");
-//		turnoService.crearTurno(turnoDTO);
-//		TurnoDTO turnoDTO1 = turnoService.leerTurno(1l);
-//	}
+
+	@Test
+	public void crearPacienteTest(){
+		PacienteDTO pacienteDTO = new PacienteDTO();
+		pacienteDTO.setId(1L);
+		pacienteDTO.setApellido("Gomez");
+		pacienteDTO.setNombre("Maria");
+		pacienteService.crearPaciente(pacienteDTO);
+		PacienteDTO pacienteDTO1 = pacienteService.leerPaciente(1L);
+
+		assertEquals(pacienteDTO.getNombre(), "Maria");
+	}
+
+	@Test
+	public void crearDomicilioTest(){
+		DomicilioDTO domicilioDTO = new DomicilioDTO();
+		domicilioDTO.setId(2L);
+		domicilioDTO.setCalle("Emilio Castro");
+		domicilioDTO.setLocalidad("Liniers");
+		domicilioDTO.setProvincia("CABA");
+		domicilioService.crearDomicilio(domicilioDTO);
+		DomicilioDTO domicilioDTO1 = domicilioService.leerDomicilio(2L);
+
+		assertEquals(domicilioDTO.getLocalidad(), "Liniers");
+	}
+
+	@Test
+	public void crearTurnoTest(){
+		TurnoDTO turnoDTO = new TurnoDTO();
+		turnoDTO.setId(1L);
+		turnoDTO.setFecha("2023-04-15");
+		turnoService.crearTurno(turnoDTO);
+		TurnoDTO turnoDTO1 = turnoService.leerTurno(1l);
+
+		assertEquals(turnoDTO.getFecha(), "2023-04-15");
+	}
 }
