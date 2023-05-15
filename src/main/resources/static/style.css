@@ -1,0 +1,43 @@
+/* Barra de navegacion */
+
+#navbar-toggler a{
+    font-size: 1.3rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 1.7rem;
+}
+
+/* fondo dentista */
+
+body {
+    background: url(herramientas-del-dentista-dos-espejos-punta-de-prueba-dental-y-pinzas-mintiendo-en-máscara-médica-el-fondo-verde-neón-espejo-141030915.jpg);
+    background-size: cover;
+}
+
+.wrap{
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+/* Responsive */
+
+@media screen and (max-width:767px ) {
+    .navbar-brand {
+        display: none;
+    }
+}

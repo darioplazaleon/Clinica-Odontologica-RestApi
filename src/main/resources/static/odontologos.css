@@ -1,0 +1,22 @@
+#navbar-toggler a{
+    font-size: 1.3rem;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 1.7rem;
+}
+
+.listar {
+    padding: 1rem;
+}
+
+@media screen and (max-width:767px ) {
+    .navbar-brand {
+        display: none;
+    }
+}
