@@ -360,3 +360,135 @@
 [2023-04-0811:20:58] [ INFO ] [TurnoService:31] Creando turno
 [2023-04-0811:20:58] [ INFO ] [TurnoService:34] Turno creado
 [2023-04-0811:20:58] [ INFO ] [TurnoService:39] Buscando turno con id: 1
+[2023-05-0421:24:30] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:24:30] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:24:34] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:24:34] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:24:35] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:24:35] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:24:39] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:24:39] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:24:43] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:24:43] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:24:44] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:24:44] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:24:52] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:24:52] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:25:35] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:35] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:43] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:43] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:44] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:44] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:44] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:44] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:45] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:45] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:45] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:45] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:46] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:46] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:25:46] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:25:46] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:30:49] [ INFO ] [PacienteService:35] Buscando paciente con id: 1
+[2023-05-0421:31:27] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:31:27] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:32:13] [ INFO ] [OdontologoService:35] Buscando odontologo con id: 2
+[2023-05-0421:32:18] [ INFO ] [OdontologoService:35] Buscando odontologo con id: 1
+[2023-05-0421:32:40] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:32:40] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:32:42] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:32:42] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:32:46] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:32:46] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:35:40] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0421:35:40] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0421:35:42] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:35:42] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:35:44] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:35:44] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0421:35:45] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0421:35:45] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0515:40:17] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0515:40:17] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:14] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:14] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:25] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:25] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:28] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:28] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:31] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:31] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:32] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:32] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:33] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:33] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:33] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:33] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:34] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:34] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:34] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:34] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:35] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:35] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:36] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:36] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:37] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:37] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:31:37] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:31:37] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:33:39] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:33:39] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:33:39] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:33:39] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:35:26] [ INFO ] [OdontologoService:35] Buscando odontologo con id: 1
+[2023-05-0516:35:33] [ INFO ] [OdontologoService:35] Buscando odontologo con id: 2
+[2023-05-0516:35:36] [ INFO ] [OdontologoService:35] Buscando odontologo con id: 3
+[2023-05-0516:35:46] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:35:46] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:26] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:26] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:27] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:27] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:28] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:28] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:29] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:29] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:39] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:39] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:40] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:40] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:40] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:40] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:41] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:41] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:36:41] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:36:41] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:45:31] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:45:31] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:45:32] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:45:32] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:45:33] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:45:33] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:55:00] [ INFO ] [OdontologoService:27] Creando Odontologo
+[2023-05-0516:55:00] [ INFO ] [OdontologoService:30] Odontologo creado
+[2023-05-0516:55:08] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:55:08] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0516:55:22] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0516:55:22] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0516:55:38] [ INFO ] [PacienteService:27] Creando Paciente
+[2023-05-0516:55:38] [ INFO ] [PacienteService:30] Paciente creado
+[2023-05-0516:55:38] [ INFO ] [DomicilioService:31] Creando domicilio
+[2023-05-0516:55:38] [ INFO ] [DomicilioService:34] Domicilio creado
+[2023-05-0516:55:40] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0516:55:40] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0516:56:20] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0516:56:20] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0523:24:59] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0523:24:59] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0523:25:00] [ INFO ] [PacienteService:62] Listando los pacientes
+[2023-05-0523:25:00] [ INFO ] [PacienteService:68] Lista de pacientes creados
+[2023-05-0523:25:04] [ INFO ] [OdontologoService:61] Creando lista de odontologos
+[2023-05-0523:25:04] [ INFO ] [OdontologoService:67] Lista de odontologos creada
+[2023-05-0523:38:07] [ INFO ] [PacienteService:27] Creando Paciente
+[2023-05-0523:38:07] [ INFO ] [PacienteService:30] Paciente creado

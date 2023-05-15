@@ -53,7 +53,7 @@ window.addEventListener('load', function () {
 						console.log("2-fetch resp: "+data_2)
 						let successAlert = '<div class="alert alert-success alert-dismissible">' +
 							'<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-							'<strong></strong> Paciente agregado </div>'
+							'<strong>Paciente agregado</strong></div>'
 
 						document.querySelector('#response').innerHTML = successAlert;
 						document.querySelector('#response').style.display = "block";
@@ -63,20 +63,18 @@ window.addEventListener('load', function () {
 						.catch(error => {
 								let errorAlert = '<div class="alert alert-danger alert-dismissible">' +
 												 '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-												 '<strong> Error intente nuevamente</strong> </div>'
-								  document.querySelector('#response').innerHTML = errorAlert;
-								  document.querySelector('#response').style.display = "block";
+												 '<strong>Error intente nuevamente</strong></div>'
+								document.querySelector('#response').innerHTML = errorAlert;
+								document.querySelector('#response').style.display = "block";
 						})
 
 					 //Si no hay ningun error se muestra un mensaje diciendo que el paciente se agrego bien
-					 let successAlert = '<div class="alert alert-success alert-dismissible">' +
-						 '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-						 '<strong></strong> Paciente agregado </div>'
+					let successAlert = '<div class="alert alert-success alert-dismissible">' +
+						                '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+						                '<strong>Paciente agregado</strong></div>'
 
-					 document.querySelector('#response').innerHTML = successAlert;
-					 document.querySelector('#response').style.display = "block";
-					
-
+					document.querySelector('#response').innerHTML = successAlert;
+					document.querySelector('#response').style.display = "block";
             })
             .catch(error => {
 				//Si hay algun error se muestra un mensaje diciendo que el paciente
@@ -103,7 +101,6 @@ window.addEventListener('load', function () {
 		document.querySelector('#numero').value = "";
 		document.querySelector('#localidad').value = "";
 		document.querySelector('#provincia').value = "";
-
     }
 
     (function(){

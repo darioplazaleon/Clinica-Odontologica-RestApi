@@ -9,30 +9,46 @@
   <script type="text/javascript" src="/js/get_paciente.js"></script>
   <script type="text/javascript" src="/js/put_paciente.js"></script>
   <script type="text/javascript" src="/js/delete_paciente.js"></script>
+  <!-- Fontawesome(iconos) -->
+  <script src="https://kit.fontawesome.com/3e9cace6d9.js" crossorigin="anonymous"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="odontologos.css">
 </head>
 <body>
-<div class="container">
-  <header class="d-flex justify-content-center py-3">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="/index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/odontologos.html">Listado Odontologos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pacientes.html">Listado Pacientes</a>
-      </li>
-    </ul>
+  <header style="background-color:#29F329;">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbar-toggler">
+            <a class="navbar-brand" href="/index.html"><i class="fa-solid fa-tooth" style="color: white;"></i></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/odontologos.html" style="color: white;">Odontologos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pacientes.html" style="color: white;">Pacientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/turnos.html" style="color: white;">Turnos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </header>
-</div>
 <div class="container">
   <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="/alta_paciente.html">Agregar nuevo</a>
+    <li class="listar nav-item">
+      <a class="btn btn-primary" href="/alta_paciente.html" role="button">Agregar Paciente</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/pacientes.html/">Todos</a>
+    <li class="listar nav-item">
+      <a class="btn btn-primary" href="/pacientes.html" role="button">Listar Pacientes</a>
     </li>
   </ul>
 
