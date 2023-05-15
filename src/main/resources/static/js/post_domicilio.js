@@ -11,9 +11,9 @@ window.addEventListener('load', function () {
         const formData = {
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
+            email: document.querySelector('#email').value,
             dni: document.querySelector('#dni').value,
-			fecha_ingreso: document.querySelector('#fecha_ingreso').value,
-
+			fechaIngreso: document.querySelector('#fechaIngreso').value,
         };
         //invocamos utilizando la función fetch la API pacientes con el método POST que guardará
         //la película que enviaremos en formato JSON
@@ -25,7 +25,9 @@ window.addEventListener('load', function () {
             },
             body: JSON.stringify(formData)
         }
+
         console.log(formData)
+
         fetch(url, settings)
             .then(response => response.json())
             .then(data => {
@@ -57,7 +59,7 @@ window.addEventListener('load', function () {
         document.querySelector('#nombre').value = "";
         document.querySelector('#apellido').value = "";
         document.querySelector('#dni').value = "";
-		document.querySelector('#fecha_ingreso').value = "";
+		document.querySelector('#fechaIngreso').value = "";
 
     }
 

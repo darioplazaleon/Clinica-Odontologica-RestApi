@@ -14,7 +14,6 @@ window.addEventListener('load', function () {
             email: document.querySelector('#email').value,
             dni: document.querySelector('#dni').value,
 			fechaIngreso: document.querySelector('#fechaIngreso').value,
-
         };
         
         const url = '/pacientes/crear';
@@ -25,7 +24,9 @@ window.addEventListener('load', function () {
             },
             body: JSON.stringify(formData)
         }
+
         console.log("1-fetch: "+formData)
+
         fetch(url, settings)
             .then(response => response.json())
             .then(data => {
@@ -53,7 +54,7 @@ window.addEventListener('load', function () {
 						console.log("2-fetch resp: "+data_2)
 						let successAlert = '<div class="alert alert-success alert-dismissible">' +
 							'<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-							'<strong>Paciente agregado</strong></div>'
+							'<strong>DOmicilio agregado</strong></div>'
 
 						document.querySelector('#response').innerHTML = successAlert;
 						document.querySelector('#response').style.display = "block";
