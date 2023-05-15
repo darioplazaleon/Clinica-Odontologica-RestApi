@@ -9,10 +9,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class TurnoService implements ITurnoService {
@@ -60,7 +57,7 @@ public class TurnoService implements ITurnoService {
     }
 
     @Override
-    public Set<TurnoDTO> traerTodos() {
+    public Collection<TurnoDTO> traerTodos() {
         logger.info("Listando todos los turnos");
         List<Turno> turnos = turnoRepository.findAll();
         Set<TurnoDTO> turnoDTOS = new HashSet<>();

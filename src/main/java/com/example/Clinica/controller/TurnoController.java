@@ -8,12 +8,19 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
+
 @RestController
 @RequestMapping("/turnos")
 public class TurnoController {
 
     @Autowired
     ITurnoService turnoService;
+
+    @GetMapping("/listar")
+    public Collection<TurnoDTO> traerTodos(){
+        return turnoService.traerTodos();
+    }
 
     @PostMapping("/crear")
     public ResponseEntity<?> crearTurno(@RequestBody TurnoDTO turnoDTO){

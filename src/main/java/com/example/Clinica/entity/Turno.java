@@ -1,7 +1,5 @@
 package com.example.Clinica.entity;
 
-import com.example.Clinica.dto.PacienteDTO;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,13 +21,15 @@ public class Turno implements Serializable {
     @SequenceGenerator(name = "turno_sequence", sequenceName = "turno_sequence", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "turno_sequence")
     private Long id;
-    private String fecha;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
-    @ManyToOne(fetch = FetchType.LAZY)
+
+    @ManyToOne
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
+
+    private String fecha;
 
 }

@@ -28,8 +28,8 @@ public class Paciente implements Serializable {
     private String fechaIngreso;
 
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
-    @JsonIgnore
     private Set<Domicilio> domicilios;
+
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
     @JsonIgnore
     private Set<Turno> turnos;
